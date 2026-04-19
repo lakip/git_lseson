@@ -3,7 +3,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 git config --list
 
-Starting a Repo
+Starting a Repository
 git init                # create new repo
 git clone <repo_url>    # copy existing repo
 
