@@ -1,0 +1,16 @@
+Basic Setup
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --list
+
+Starting a Repo
+git init                # create new repo
+git clone <repo_url>    # copy existing repo
+
+Daily Workflow 
+git status              # check what's going on
+git add <file>          # stage file
+git add .               # stage everything
+git commit -m "message" # save changes
+git push                # send to remote
+git pull                # get latest changes
